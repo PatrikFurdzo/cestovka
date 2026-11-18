@@ -14,4 +14,54 @@
 
   --font-nadpisy: "Montserrat" , sans-serif;
   --font-body: "Open sans" , sans-serif;
+
+  --medzera-s: 1rem;
+  --medzera-m: 1,5rem;
+  --medzera-l: 2rem;
+  --medzera-xl: 3rem;
+
+
+}
+body{
+    font-family: var(--font-body);
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: var(--text-tmavy);
+}
+
+ul {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3{
+    font-family: var(--font-nadpisy);
+    margin: 0;
+}
+
+.hlavicka{
+    background-color: #2563eb;
+    color: var(--pozadie-svetla);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+/* ==================== Navigacia==================== */
+
+.navigacia__zoznam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navigacia__odkaz:hover{
+   background-color: #1e40af;
 }
