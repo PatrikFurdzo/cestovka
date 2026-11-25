@@ -80,3 +80,41 @@ h1, h2, h3{
 .navigacia{
     gap: var(--medzera-m);
 }
+
+/* ==================== Hero==================== */
+
+.hero{
+    background: linear-gradient(135deg, var(--primarna),
+     var(--primarna-tmava))
+      ;
+      font-family: var(--font-nadpisy);
+      color: #ffffff;
+      text-align: center;
+      gap: var(--medzera-m);
+      
+}
+
+.hero__odstavec{
+    font-family: var(--font-body);
+    font-weight: 600;
+    margin-bottom: var(--medzera-l);
+}
+
+.hero__odkaz{
+    background-color: #f97316;
+    padding: .25rem ;
+    font-family: var(--font-body);
+    font-weight: 600;
+    background-size: 45;                                           
+    gap: var(--medzera-s);
+    
+}
+
+.hero__odkaz:hover{
+    background-color: #a05620;
+}
+
+.vyhody{
+    display: grid;
+    grid-template-columns: 1fr;
+}
